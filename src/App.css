@@ -1,0 +1,138 @@
+/* HOW IT WORKS SECTION (Purple Background) */
+.how-it-works-section {
+  background-color: #4f46e5;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.how-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.step-card {
+  background-color: white;
+  color: #4f46e5;
+  padding: 30px 20px;
+  border-radius: 14px;
+  width: 260px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.step-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+
+.why-section {
+  background-color: #4f46e5;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.why-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.why-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.why-card {
+  background-color: white;
+  color: #4f46e5;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+}
+
+.why-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.testimonials-section {
+  background-color: #4f46e5;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: white;
+  color: #4f46e5;
+  max-width: 300px;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  position: relative;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.quote-icon {
+  font-size: 2rem;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #e0e7ff;
+  opacity: 0.4;
+}
+
+.quote-text {
+  font-size: 1rem;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.quote-author {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #6b46c1;
+}
+
