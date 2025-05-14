@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.1.0",
+    "esbuild": "^0.25.4",
+    "rollup": "^4.40.2",
     "vite": "^4.5.0"
   }
 }
